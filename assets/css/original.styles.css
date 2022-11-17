@@ -1179,6 +1179,11 @@ a {
 .w3-border-0 {
   border: 0 !important;
 }
+/*
+* DIW: Parte 9: 
+* Utilizar un mixin con los elementos repetidos entre todos los border 
+* para que no se repita el código
+*/
 .w3-border {
   border: 1px solid #ccc !important;
 }
@@ -1206,6 +1211,9 @@ a {
 .w3-rightbar {
   border-right: 6px solid #ccc !important;
 }
+/*
+* DIW: Final Parte 9 
+*/
 .w3-section,
 .w3-code {
   margin-top: 16px !important;
@@ -1235,6 +1243,10 @@ a {
 .w3-padding-large {
   padding: 12px 24px !important;
 }
+/*
+* DIW: Parte 10: 
+* Utiliza un bucle y variables para construir los padding dinámicamente.
+*/
 .w3-padding-16 {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
@@ -1255,6 +1267,13 @@ a {
   padding-top: 64px !important;
   padding-bottom: 64px !important;
 }
+/*
+* DIW: Fin Parte 10
+*/
+/*
+* DIW: Parte 11: 
+* Utiliza un bucle y variables para construir los padding dinámicamente.
+*/
 .w3-padding-top-64 {
   padding-top: 64px !important;
 }
@@ -1267,6 +1286,9 @@ a {
 .w3-padding-top-24 {
   padding-top: 24px !important;
 }
+/*
+* DIW: Fin Parte 11
+*/
 .w3-left {
   float: left !important;
 }
@@ -1285,7 +1307,11 @@ a {
   box-shadow: none !important;
 }
 /* Colors */
-/*Mixins para no repetir los colores !important*/
+/*
+* DIW: Parte 12: 
+* Utiliza mixins y variables para no repetir los colores !important
+* Usa también anidamiento para los pseudoelementos
+*/
 .w3-amber,
 .w3-hover-amber:hover {
   color: #000 !important;
@@ -1684,3 +1710,6 @@ a {
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
+/*
+* DIW: Final Parte 12
+*/
